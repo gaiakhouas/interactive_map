@@ -1,0 +1,94 @@
+/*
+    * 18/05/2021 - Gaïa KHOUAS
+    * CSS style for map, markers, and associated contents
+*/
+
+* {
+    font-family: 'poppins'
+}
+
+.container-a a {
+    border-radius: 30px !important;
+}
+
+.link {
+    padding: 10px 15px 10px 15px;
+    text-decoration: none !important;
+    border: 1px solid #FC4B33;
+    width: 20px;
+}
+
+legend {
+    background-color: #000;
+    color: #fff;
+    padding: 3px 6px;
+}
+
+#customHR {
+    width: 70%;
+    color: #FC4B33;
+    opacity: 1;
+    height: 2px;
+}
+
+#contact,
+.icon {
+    color: #FC4B33 !important;
+}
+
+.contact {
+    padding-left: 10px;
+    font-size:14px;
+}
+
+#contact {
+    margin-bottom: 2px;
+}
+
+#actu {
+    color: #FC4B33 !important;
+}
+
+#email {
+    color: #222222;
+    text-decoration: none;
+}
+
+h3 {
+    color: #FC4B33 !important;
+}
+
+.selected {
+    width: 40px !important;
+    height: 40px !important;
+    transition: 1s;
+    position: relative !important;
+}
+
+
+.container {
+    width: 100%;
+}
+
+#viewArea {
+    position: relative;
+    max-width: auto;
+}
+
+#content {
+    margin-top: 20px;
+    box-shadow: 0px 3px 6px 0px #222222;
+    border-radius: 2px;
+}
+
+#marker {
+    padding: 10px;
+}
+
+#contactName {
+    font-size: 12px;
+}
+
+.zoom-marker {
+    width: 24px;
+}
